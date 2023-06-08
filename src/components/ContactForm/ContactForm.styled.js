@@ -3,6 +3,8 @@ import { Field } from 'formik';
 
 export const Label = styled.label`
   margin: 5px;
+  font-size: 25px;
+  color: #FFD233;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,9 +22,13 @@ export const Input = styled(Field)`
 
 export const Button = styled.button`
   margin-top: 10px;
-  width: 100px;
-  height: 25px;
-  color: #333340;
-  border: 1px solid #333340;
-  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #FFD233;
+  padding: 8px 25px;
+  border: 1px solid #FFD233;
+  background: #4D5AE5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 `;
+ 
